@@ -14,22 +14,25 @@ module.exports = {
     if (req.headers.authorization) {
       token = token.split(' ').pop().trim();
     }
-
+    console.log('req:', req);
     if (!token) {
       return req;
     }
 
     // verify token and get user data out of it
     try {
+      //console.log('verify', token)
       const { data } = jwt.verify(token, secret, { maxAge: expiration });
+      //console.log('data', data)
       req.user = data;
+      return req;
     } catch {
       console.log('Invalid token');
       return res.status(400).json({ message: 'invalid token!' });
     }
 
     // send to next endpoint
-    next();
+    //next();
   },
   signToken: function ({ username, email, _id }) {
     const payload = { username, email, _id };
