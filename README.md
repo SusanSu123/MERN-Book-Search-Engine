@@ -7,7 +7,7 @@ This week, you’ll take starter code with a fully functioning Google Books API 
 
 ## Deployment
 * GitHub repository: https://github.com/SusanSu123/MERN-Book-Search-Engine.git
-* Heroku 
+* Heroku: https://mern-book-search-engine123.herokuapp.com/
 
 
 To complete the assignment, you’ll need to do the following:
