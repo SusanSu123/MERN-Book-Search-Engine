@@ -1,6 +1,6 @@
 ## Overview
 
-This project is code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built with the MERN stack, a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end. 
+This project is code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built with the MERN stack, a React front end, MongoDB database, and Node.js/Express.js server and API. 
 
 
 ## Deployment
@@ -8,7 +8,7 @@ This project is code with a fully functioning Google Books API search engine bui
 * Heroku: https://mern-book-search-engine123.herokuapp.com/
 
 
-To complete the assignment, you’ll need to do the following:
+## Implementation Details
 
 1. Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
 
@@ -16,7 +16,7 @@ To complete the assignment, you’ll need to do the following:
 
 3. Create an Apollo Provider so that requests can communicate with an Apollo Server.
 
-4. Deploy your application to Heroku with a MongoDB database using MongoDB Atlas. 
+4. Deploy application to Heroku with a MongoDB database using MongoDB Atlas. 
 
 
 
